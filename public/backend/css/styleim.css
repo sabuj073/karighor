@@ -1,0 +1,53 @@
+.m_top {
+    margin-top: 55px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.left-border {
+    border-left: 15px solid #f8f8fb;
+}
+
+.container.dashboard_padding {
+    padding-top: 40px;
+}
+
+.section_background {
+    padding-top: 40px;
+}
+
+.delete_form button {
+    padding: 1px !important;
+    width: 22px;
+    height: 22px;
+}
+
+.clear_cache_btn {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 18px;
+    height: 38px;
+    color: white;
+    transition: all ease-in-out 0.5s;
+    background: #eb513e;
+}
+
+.clear_cache_btn:hover {
+    background: black;
+    color: white;
+}
+.mt_70{
+    margin-top: 70px;
+}
+#activeProduct{
+    width: 100% !important;
+}
+#draft_data{
+    width: 100% !important;
+}
+#trash_data{
+    width: 100% !important;
+}

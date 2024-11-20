@@ -1,0 +1,66 @@
+const mix = require("laravel-mix");
+
+mix.styles(
+    [
+        "resources/css/bootstrap.min.css",
+        "resources/css/all.min.css",
+        "resources/css/magnific-popup.css",
+        "resources/css/owl.carousel.min.css",
+        "resources/css/slick.css",
+        "resources/css/slick-theme.css",
+        "resources/css/simple-lightbox.min.css",
+        "resources/css/rateyo.min.css",
+        "resources/css/df_styleim.css",
+        "resources/css/meanmenu.css",
+        "resources/css/typography.css",
+        "resources/css/preloader.css",
+        "resources/css/mobile-menu.css",
+        "resources/css/aos.css",
+        "resources/css/header.css",
+        "resources/css/footer.css",
+        "resources/css/fonts.css",
+        "resources/css/blog-page.css",
+        "resources/css/modal-video.min.css",
+        "resources/css/nice-select.css",
+        "resources/css/comon.css",
+        "resources/css/animation.css",
+        "resources/css/visafast-unit.css",
+        "resources/css/visafast-core.css",
+        "resources/css/newStyleHim.css",
+        "resources/css/style.css",
+        "resources/css/styleim.css",
+
+        "resources/css/responsive.css",
+        "resources/css/newResponsiveHim.css",
+        "resources/css/responsiveim.css",
+        "resources/css/toastr.min.css",
+    ],
+    "public/css/all.css"
+)
+    .scripts(
+        [
+            "resources/js/jquery-3-6-0.min.js",
+            "resources/js/bootstrap.min.js",
+            "resources/js/owl.carousel.min.js",
+            "resources/js/aos.js",
+            "resources/js/jquery.magnific-popup.min.js",
+            "resources/js/jquery.waypoints.min.js",
+            "resources/js/popper.min.js",
+            "resources/js/slick.min.js",
+            "resources/js/all.min.js",
+            "resources/js/mobile-menu.js",
+            "resources/js/tilt.jquery.js",
+            "resources/js/jquery.countup.js",
+            "resources/js/jquery.nice-select.js",
+            "resources/js/jquery.lineProgressbar.js",
+            "resources/js/readmore.min.js",
+            "resources/js/simple-lightbox.jquery.min.js",
+            "resources/js/simple-lightbox.legacy.min.js",
+            "resources/js/rateyo.min.js",
+            "resources/js/main.js",
+            "resources/js/script.js",
+            "resources/js/toastr.min.js",
+        ],
+        "public/js/all.js"
+    )
+    .version();
